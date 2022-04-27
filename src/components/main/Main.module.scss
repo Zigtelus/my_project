@@ -1,0 +1,78 @@
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  max-width: 700px;
+  width: 100%;
+
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  background-color: rgb(189, 92, 92);
+  border-radius: 11px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    background-color: rgba(189, 92, 92, 0);
+    text-align: center;
+  }
+}
+
+.form {
+  max-width: 400px;
+  min-width: 300px;
+  width: 58%;
+  border: 1px solid wheat;
+  margin: 15px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.formItem {
+  width: 45%;
+  min-width: 170px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px;
+
+  label {
+    margin-bottom: 7px;
+  }
+}
+
+.buttonContain {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+
+
+
+
+@media (max-width: 400px) {
+  .profile {
+    width: 88%;
+  }
+
+  .form {
+    border: initial;
+    min-width: initial;
+  }
+}
